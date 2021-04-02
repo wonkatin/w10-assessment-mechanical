@@ -1,4 +1,4 @@
-No code editor, no Google!
+No code editor, no python interpreter, no Google!
 Show what you know!
 
 # Your answers here:
