@@ -2,3 +2,32 @@ No code editor, no python interpreter, no Google!
 Show what you know!
 
 # Your answers here:
+1.
+items = {
+    "bad": "dream",
+    "last": "night"
+}
+2.
+def add_numbers(x, y):
+    return x+y
+
+3. pet_msg = f'There are {cats} cats and {dogs} dogs'
+
+'there are {x} cats and {y} dogs'.format(x=cats, y=dogs)
+
+4. def more_cats_or_dogs(cats, dogs):
+        if cats > dogs: 
+            return "cats"
+        if dogs > cats:
+            return "dogs"
+Ternary: return 'cats' if cats > dogs else 'dogs'
+5.
+class Cat:
+    __init__(self, name, age):
+        name = self.name # self.name = name
+        age = self.age # self.age = age
+
+6. my_cat = Cat('big head', 8)
+
+7.
+print( f'my cat {my_cat.name} is {my_cat.age} years old')
